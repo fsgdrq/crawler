@@ -1,0 +1,163 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACStateInit	ACstates.h	/^int ACStateInit()$/;"	f	signature:()
+ACStateInit	ACstates.h	/^int ACStateInit();$/;"	p	signature:()
+APHash	Hash.h	/^unsigned int APHash(const char* str, unsigned int length)$/;"	f	signature:(const char* str, unsigned int length)
+BKDRHash	Hash.h	/^unsigned int BKDRHash(const char* str, unsigned int length)$/;"	f	signature:(const char* str, unsigned int length)
+BLOOMSIZE	Hash.h	3;"	d
+BPHash	Hash.h	/^unsigned int BPHash(const char*str ,unsigned int length)$/;"	f	signature:(const char*str ,unsigned int length)
+BUFSIZE	http.h	16;"	d
+BUFSIZE	http2.h	25;"	d
+DEKHash	Hash.h	/^unsigned int DEKHash(const char* str, unsigned int length)$/;"	f	signature:(const char* str, unsigned int length)
+DJBHash	Hash.h	/^unsigned int DJBHash(const char* str, unsigned int length)$/;"	f	signature:(const char* str, unsigned int length)
+DebugOut	http2.h	/^	void DebugOut(const char *fmt, ...);$/;"	p	class:HttpRequest	access:public	signature:(const char *fmt, ...)
+DebugOut	http2.h	/^void HttpRequest::DebugOut(const char *fmt, ...)$/;"	f	class:HttpRequest	signature:(const char *fmt, ...)
+Destroy	ACstates.h	/^void Destroy(Node* pNode)$/;"	f	signature:(Node* pNode)
+ELFHash	Hash.h	/^unsigned int ELFHash(const char* str, unsigned int length)$/;"	f	signature:(const char* str, unsigned int length)
+Edge	ACstates.h	/^typedef struct Edge$/;"	s
+Edge	ACstates.h	/^}Edge;$/;"	t	typeref:struct:Edge
+Edge::data	ACstates.h	/^    wchar_t data;$/;"	m	struct:Edge	access:public
+Edge::dstNode	ACstates.h	/^    Node* dstNode = NULL;$/;"	m	struct:Edge	access:public
+FNVHash	Hash.h	/^unsigned int FNVHash(const char*str ,unsigned int length)$/;"	f	signature:(const char*str ,unsigned int length)
+GetHostAddrFromUrl	http.h	/^char* GetHostAddrFromUrl(const char* strUrl)$/;"	f	signature:(const char* strUrl)
+GetHostAddrFromUrl	http.h	/^char* GetHostAddrFromUrl(const char* strUrl);$/;"	p	signature:(const char* strUrl)
+GetHostAddrFromUrl	http2.h	/^	char* GetHostAddrFromUrl(const char* strUrl);$/;"	p	class:HttpRequest	access:private	signature:(const char* strUrl)
+GetHostAddrFromUrl	http2.h	/^char* HttpRequest::GetHostAddrFromUrl(const char* strUrl)$/;"	f	class:HttpRequest	signature:(const char* strUrl)
+GetIPFromUrl	http.h	/^char* GetIPFromUrl(const char* strUrl)$/;"	f	signature:(const char* strUrl)
+GetIPFromUrl	http.h	/^char* GetIPFromUrl(const char* strUrl);$/;"	p	signature:(const char* strUrl)
+GetIPFromUrl	http2.h	/^	char* GetIPFromUrl(const char* strUrl);$/;"	p	class:HttpRequest	access:private	signature:(const char* strUrl)
+GetIPFromUrl	http2.h	/^char* HttpRequest::GetIPFromUrl(const char* strUrl)$/;"	f	class:HttpRequest	signature:(const char* strUrl)
+GetParamFromUrl	http.h	/^char* GetParamFromUrl(const char* strUrl)$/;"	f	signature:(const char* strUrl)
+GetParamFromUrl	http.h	/^char* GetParamFromUrl(const char* strUrl);$/;"	p	signature:(const char* strUrl)
+GetParamFromUrl	http2.h	/^	char* GetParamFromUrl(const char* strUrl);$/;"	p	class:HttpRequest	access:private	signature:(const char* strUrl)
+GetParamFromUrl	http2.h	/^char* HttpRequest::GetParamFromUrl(const char* strUrl)$/;"	f	class:HttpRequest	signature:(const char* strUrl)
+GetPortFromUrl	http2.h	/^	int   GetPortFromUrl(const char* strUrl);$/;"	p	class:HttpRequest	access:private	signature:(const char* strUrl)
+GetPortFromUrl	http2.h	/^int HttpRequest::GetPortFromUrl(const char* strUrl)$/;"	f	class:HttpRequest	signature:(const char* strUrl)
+HttpDataTransmit	http.h	/^char* HttpDataTransmit(const int iSockFd)$/;"	f	signature:(const int iSockFd)
+HttpDataTransmit	http.h	/^char* HttpDataTransmit(const int iSockFd);$/;"	p	signature:(const int iSockFd)
+HttpDataTransmit	http2.h	/^	char* HttpDataTransmit(char *strHttpHead, const int iSockFd);$/;"	p	class:HttpRequest	access:private	signature:(char *strHttpHead, const int iSockFd)
+HttpDataTransmit	http2.h	/^char* HttpRequest::HttpDataTransmit(char *strHttpHead, const int iSockFd)$/;"	f	class:HttpRequest	signature:(char *strHttpHead, const int iSockFd)
+HttpGet	http2.h	/^	int HttpGet(const char* strUrl, char* strResponse);$/;"	p	class:HttpRequest	access:public	signature:(const char* strUrl, char* strResponse)
+HttpGet	http2.h	/^int HttpRequest::HttpGet(const char* strUrl, char* strResponse)$/;"	f	class:HttpRequest	signature:(const char* strUrl, char* strResponse)
+HttpHeadCreate	http.h	/^char* HttpHeadCreate(const char* strUrl)$/;"	f	signature:(const char* strUrl)
+HttpHeadCreate	http.h	/^char* HttpHeadCreate(const char* strUrl);$/;"	p	signature:(const char* strUrl)
+HttpHeadCreate	http2.h	/^	char* HttpHeadCreate(const char* strMethod, const char* strUrl, const char* strData);$/;"	p	class:HttpRequest	access:private	signature:(const char* strMethod, const char* strUrl, const char* strData)
+HttpHeadCreate	http2.h	/^char* HttpRequest::HttpHeadCreate(const char* strMethod, const char* strUrl, const char* strData)$/;"	f	class:HttpRequest	signature:(const char* strMethod, const char* strUrl, const char* strData)
+HttpPost	http2.h	/^	int HttpPost(const char* strUrl, const char* strData, char* strResponse);$/;"	p	class:HttpRequest	access:public	signature:(const char* strUrl, const char* strData, char* strResponse)
+HttpPost	http2.h	/^int HttpRequest::HttpPost(const char* strUrl, const char* strData, char* strResponse)$/;"	f	class:HttpRequest	signature:(const char* strUrl, const char* strData, char* strResponse)
+HttpRequest	http2.h	/^	HttpRequest();$/;"	p	class:HttpRequest	access:public	signature:()
+HttpRequest	http2.h	/^class HttpRequest$/;"	c
+HttpRequest::DebugOut	http2.h	/^	void DebugOut(const char *fmt, ...);$/;"	p	class:HttpRequest	access:public	signature:(const char *fmt, ...)
+HttpRequest::DebugOut	http2.h	/^void HttpRequest::DebugOut(const char *fmt, ...)$/;"	f	class:HttpRequest	signature:(const char *fmt, ...)
+HttpRequest::GetHostAddrFromUrl	http2.h	/^	char* GetHostAddrFromUrl(const char* strUrl);$/;"	p	class:HttpRequest	access:private	signature:(const char* strUrl)
+HttpRequest::GetHostAddrFromUrl	http2.h	/^char* HttpRequest::GetHostAddrFromUrl(const char* strUrl)$/;"	f	class:HttpRequest	signature:(const char* strUrl)
+HttpRequest::GetIPFromUrl	http2.h	/^	char* GetIPFromUrl(const char* strUrl);$/;"	p	class:HttpRequest	access:private	signature:(const char* strUrl)
+HttpRequest::GetIPFromUrl	http2.h	/^char* HttpRequest::GetIPFromUrl(const char* strUrl)$/;"	f	class:HttpRequest	signature:(const char* strUrl)
+HttpRequest::GetParamFromUrl	http2.h	/^	char* GetParamFromUrl(const char* strUrl);$/;"	p	class:HttpRequest	access:private	signature:(const char* strUrl)
+HttpRequest::GetParamFromUrl	http2.h	/^char* HttpRequest::GetParamFromUrl(const char* strUrl)$/;"	f	class:HttpRequest	signature:(const char* strUrl)
+HttpRequest::GetPortFromUrl	http2.h	/^	int   GetPortFromUrl(const char* strUrl);$/;"	p	class:HttpRequest	access:private	signature:(const char* strUrl)
+HttpRequest::GetPortFromUrl	http2.h	/^int HttpRequest::GetPortFromUrl(const char* strUrl)$/;"	f	class:HttpRequest	signature:(const char* strUrl)
+HttpRequest::HttpDataTransmit	http2.h	/^	char* HttpDataTransmit(char *strHttpHead, const int iSockFd);$/;"	p	class:HttpRequest	access:private	signature:(char *strHttpHead, const int iSockFd)
+HttpRequest::HttpDataTransmit	http2.h	/^char* HttpRequest::HttpDataTransmit(char *strHttpHead, const int iSockFd)$/;"	f	class:HttpRequest	signature:(char *strHttpHead, const int iSockFd)
+HttpRequest::HttpGet	http2.h	/^	int HttpGet(const char* strUrl, char* strResponse);$/;"	p	class:HttpRequest	access:public	signature:(const char* strUrl, char* strResponse)
+HttpRequest::HttpGet	http2.h	/^int HttpRequest::HttpGet(const char* strUrl, char* strResponse)$/;"	f	class:HttpRequest	signature:(const char* strUrl, char* strResponse)
+HttpRequest::HttpHeadCreate	http2.h	/^	char* HttpHeadCreate(const char* strMethod, const char* strUrl, const char* strData);$/;"	p	class:HttpRequest	access:private	signature:(const char* strMethod, const char* strUrl, const char* strData)
+HttpRequest::HttpHeadCreate	http2.h	/^char* HttpRequest::HttpHeadCreate(const char* strMethod, const char* strUrl, const char* strData)$/;"	f	class:HttpRequest	signature:(const char* strMethod, const char* strUrl, const char* strData)
+HttpRequest::HttpPost	http2.h	/^	int HttpPost(const char* strUrl, const char* strData, char* strResponse);$/;"	p	class:HttpRequest	access:public	signature:(const char* strUrl, const char* strData, char* strResponse)
+HttpRequest::HttpPost	http2.h	/^int HttpRequest::HttpPost(const char* strUrl, const char* strData, char* strResponse)$/;"	f	class:HttpRequest	signature:(const char* strUrl, const char* strData, char* strResponse)
+HttpRequest::HttpRequest	http2.h	/^	HttpRequest();$/;"	p	class:HttpRequest	access:public	signature:()
+HttpRequest::HttpRequestExec	http2.h	/^	int   HttpRequestExec(const char* strMethod, const char* strUrl, const char* strData, char* strResponse);$/;"	p	class:HttpRequest	access:private	signature:(const char* strMethod, const char* strUrl, const char* strData, char* strResponse)
+HttpRequest::HttpRequestExec	http2.h	/^int HttpRequest::HttpRequestExec(const char* strMethod, const char* strUrl, const char* strData, char* strResponse)$/;"	f	class:HttpRequest	signature:(const char* strMethod, const char* strUrl, const char* strData, char* strResponse)
+HttpRequest::SocketFdCheck	http2.h	/^	int   SocketFdCheck(const int iSockFd);$/;"	p	class:HttpRequest	access:private	signature:(const int iSockFd)
+HttpRequest::SocketFdCheck	http2.h	/^int HttpRequest::SocketFdCheck(const int iSockFd)$/;"	f	class:HttpRequest	signature:(const int iSockFd)
+HttpRequest::m_iSocketFd	http2.h	/^	static int m_iSocketFd;$/;"	m	class:HttpRequest	access:private
+HttpRequest::m_iSocketFd	http2.h	/^int HttpRequest::m_iSocketFd = INVALID_SOCKET;$/;"	m	class:HttpRequest
+HttpRequest::~HttpRequest	http2.h	/^	~HttpRequest();$/;"	p	class:HttpRequest	access:public	signature:()
+HttpRequestExec	http2.h	/^	int   HttpRequestExec(const char* strMethod, const char* strUrl, const char* strData, char* strResponse);$/;"	p	class:HttpRequest	access:private	signature:(const char* strMethod, const char* strUrl, const char* strData, char* strResponse)
+HttpRequestExec	http2.h	/^int HttpRequest::HttpRequestExec(const char* strMethod, const char* strUrl, const char* strData, char* strResponse)$/;"	f	class:HttpRequest	signature:(const char* strMethod, const char* strUrl, const char* strData, char* strResponse)
+INVALID_SOCKET	http.h	19;"	d
+INVALID_SOCKET	http2.h	28;"	d
+JSHash	Hash.h	/^unsigned int JSHash(const char* str,unsigned int length)$/;"	f	signature:(const char* str,unsigned int length)
+Node	ACstates.h	/^typedef struct Node$/;"	s
+Node	ACstates.h	/^}Node;$/;"	t	typeref:struct:Node
+Node::eqLink0	ACstates.h	/^    Edge* eqLink0 = NULL;$/;"	m	struct:Node	access:public
+Node::eqLink1	ACstates.h	/^    Edge* eqLink1 = NULL;$/;"	m	struct:Node	access:public
+Node::eqLink2	ACstates.h	/^    Edge* eqLink2 = NULL;$/;"	m	struct:Node	access:public
+Node::eqLink3	ACstates.h	/^    Edge* eqLink3 = NULL;$/;"	m	struct:Node	access:public
+Node::eqLink4	ACstates.h	/^    Edge* eqLink4 = NULL;$/;"	m	struct:Node	access:public
+Node::failNode	ACstates.h	/^    Node* failNode = NULL;$/;"	m	struct:Node	access:public
+Node::nEdgeNum	ACstates.h	/^    int nEdgeNum = 0;$/;"	m	struct:Node	access:public
+Node::nIndex	ACstates.h	/^    int nIndex = 0;$/;"	m	struct:Node	access:public
+PJWHash	Hash.h	/^unsigned int PJWHash(const char* str, unsigned int length)$/;"	f	signature:(const char* str, unsigned int length)
+PROJECT_HTTPREQ_H	http2.h	6;"	d
+RSHash	Hash.h	/^unsigned int RSHash(const char* str,unsigned int length)$/;"	f	signature:(const char* str,unsigned int length)
+SDBMHash	Hash.h	/^unsigned int SDBMHash(const char* str, unsigned int length)$/;"	f	signature:(const char* str, unsigned int length)
+SocketFdCheck	http2.h	/^	int   SocketFdCheck(const int iSockFd);$/;"	p	class:HttpRequest	access:private	signature:(const int iSockFd)
+SocketFdCheck	http2.h	/^int HttpRequest::SocketFdCheck(const int iSockFd)$/;"	f	class:HttpRequest	signature:(const int iSockFd)
+URL	main.cpp	/^	char* URL = NULL;$/;"	m	struct:struWrite	file:	access:public
+URLSIZE	http.h	18;"	d
+URLSIZE	http2.h	27;"	d
+URLindex	ACstates.h	/^int URLindex = 0;$/;"	v
+WHOLE_PAGE_SIZE	http.h	17;"	d
+WHOLE_PAGE_SIZE	http2.h	26;"	d
+__DEBUG__	http.h	20;"	d
+__DEBUG__	http2.h	29;"	d
+bCheck	Hash.h	/^bool bCheck[17];$/;"	v
+bInit	main.cpp	/^	bool bInit=false;$/;"	m	struct:struRead	file:	access:public
+base	main.cpp	/^struct event_base *base;$/;"	v	typeref:struct:event_base
+cb_read	main.cpp	/^void cb_read(evutil_socket_t fd,short sig,void *arg)$/;"	f	signature:(evutil_socket_t fd,short sig,void *arg)
+cb_read	main.cpp	/^void cb_read(evutil_socket_t fd,short sig,void *arg);$/;"	p	file:	signature:(evutil_socket_t fd,short sig,void *arg)
+cb_write	main.cpp	/^void cb_write(evutil_socket_t fd,short sig,void *arg)$/;"	f	signature:(evutil_socket_t fd,short sig,void *arg)
+cb_write	main.cpp	/^void cb_write(evutil_socket_t fd,short sig,void *arg);$/;"	p	file:	signature:(evutil_socket_t fd,short sig,void *arg)
+checkHost	main.cpp	/^inline int checkHost(char* URL)$/;"	f	signature:(char* URL)
+checkHost	main.cpp	/^inline int checkHost(char* URL);$/;"	p	file:	signature:(char* URL)
+checkIfMatch	ACstates.h	/^int checkIfMatch(Node** pCurNode,int* pnURLlength)$/;"	f	signature:(Node** pCurNode,int* pnURLlength)
+checkIfMatch	ACstates.h	/^int checkIfMatch(Node** pCurNode,int* pnURLlength);$/;"	p	signature:(Node** pCurNode,int* pnURLlength)
+checkIfNotExist	Hash.h	/^int checkIfNotExist(char* str,unsigned int length)$/;"	f	signature:(char* str,unsigned int length)
+data	ACstates.h	/^    wchar_t data;$/;"	m	struct:Edge	access:public
+dstNode	ACstates.h	/^    Node* dstNode = NULL;$/;"	m	struct:Edge	access:public
+eqLink0	ACstates.h	/^    Edge* eqLink0 = NULL;$/;"	m	struct:Node	access:public
+eqLink1	ACstates.h	/^    Edge* eqLink1 = NULL;$/;"	m	struct:Node	access:public
+eqLink2	ACstates.h	/^    Edge* eqLink2 = NULL;$/;"	m	struct:Node	access:public
+eqLink3	ACstates.h	/^    Edge* eqLink3 = NULL;$/;"	m	struct:Node	access:public
+eqLink4	ACstates.h	/^    Edge* eqLink4 = NULL;$/;"	m	struct:Node	access:public
+eventRead	main.cpp	/^	struct event *eventRead;$/;"	m	struct:struRead	typeref:struct:struRead::event	file:	access:public
+eventWrite	main.cpp	/^	struct event *eventWrite;$/;"	m	struct:struWrite	typeref:struct:struWrite::event	file:	access:public
+failNode	ACstates.h	/^    Node* failNode = NULL;$/;"	m	struct:Node	access:public
+fd	main.cpp	/^	evutil_socket_t fd=0;$/;"	m	struct:struRead	file:	access:public
+flag	ACstates.h	/^int flag = 0;$/;"	v
+func	main.cpp	/^void* func(void* ptr)$/;"	f	signature:(void* ptr)
+func	main.cpp	/^void* func(void* ptr);$/;"	p	file:	signature:(void* ptr)
+func	test.cpp	/^void func(char* asdd)$/;"	f	signature:(char* asdd)
+func	test.cpp	/^void func(char* asdd);$/;"	p	file:	signature:(char* asdd)
+insertNode	ACstates.h	/^int insertNode(Node* srcNode,wchar_t data,Node* failNode,int index)$/;"	f	signature:(Node* srcNode,wchar_t data,Node* failNode,int index)
+insertNode	ACstates.h	/^int insertNode(Node* srcNode,wchar_t data,Node* failNode,int index);$/;"	p	signature:(Node* srcNode,wchar_t data,Node* failNode,int index)
+m_iSocketFd	http.h	/^int m_iSocketFd = INVALID_SOCKET;$/;"	v
+m_iSocketFd	http2.h	/^	static int m_iSocketFd;$/;"	m	class:HttpRequest	access:private
+m_iSocketFd	http2.h	/^int HttpRequest::m_iSocketFd = INVALID_SOCKET;$/;"	m	class:HttpRequest
+main	main.cpp	/^int main(void)$/;"	f	signature:(void)
+main	test.cpp	/^int main()$/;"	f	signature:()
+nEdgeNum	ACstates.h	/^    int nEdgeNum = 0;$/;"	m	struct:Node	access:public
+nIndex	ACstates.h	/^    int nIndex = 0;$/;"	m	struct:Node	access:public
+nURLlength	main.cpp	/^	int nURLlength;$/;"	m	struct:struRead	file:	access:public
+nextStep	ACstates.h	/^int nextStep(Node** pCurNode,wchar_t data)$/;"	f	signature:(Node** pCurNode,wchar_t data)
+nextStep	ACstates.h	/^int nextStep(Node** pCurNode,wchar_t data);$/;"	p	signature:(Node** pCurNode,wchar_t data)
+ofile	main.cpp	/^ofstream ofile;$/;"	v
+ofileLog	main.cpp	/^ofstream ofileLog;$/;"	v
+pCurNode	main.cpp	/^	Node* pCurNode=NULL;$/;"	m	struct:struRead	file:	access:public
+pRoot	ACstates.h	/^static Node* pRoot;$/;"	v
+struRead	main.cpp	/^struct struRead$/;"	s	file:
+struRead::bInit	main.cpp	/^	bool bInit=false;$/;"	m	struct:struRead	file:	access:public
+struRead::eventRead	main.cpp	/^	struct event *eventRead;$/;"	m	struct:struRead	typeref:struct:struRead::event	file:	access:public
+struRead::fd	main.cpp	/^	evutil_socket_t fd=0;$/;"	m	struct:struRead	file:	access:public
+struRead::nURLlength	main.cpp	/^	int nURLlength;$/;"	m	struct:struRead	file:	access:public
+struRead::pCurNode	main.cpp	/^	Node* pCurNode=NULL;$/;"	m	struct:struRead	file:	access:public
+struWrite	main.cpp	/^struct struWrite$/;"	s	file:
+struWrite::URL	main.cpp	/^	char* URL = NULL;$/;"	m	struct:struWrite	file:	access:public
+struWrite::eventWrite	main.cpp	/^	struct event *eventWrite;$/;"	m	struct:struWrite	typeref:struct:struWrite::event	file:	access:public
+waitLine	main.cpp	/^queue<char*> waitLine;$/;"	v
+~HttpRequest	http2.h	/^	~HttpRequest();$/;"	p	class:HttpRequest	access:public	signature:()

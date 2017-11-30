@@ -1,0 +1,10 @@
+http://news.sohu.com/	0.004051195
+http://news.sohu.com/guojixinwen.shtml	0.002470256
+http://news.sohu.com/guoneixinwen.shtml	0.002466776
+http://news.sohu.com/shehuixinwen.shtml	0.002054168
+http://news.sohu.com/s2015/dianji-1737/index.shtml	0.000894125
+http://news.sohu.com/s2015/dianji-1736/index.shtml	0.000826688
+http://news.sohu.com/s2015/dianji-1735/index.shtml	0.000746188
+http://news.sohu.com/dianjijinri/	0.000504360
+http://news.sohu.com/photo/	0.000498625
+http://news.sohu.com/newsmaker_list/	0.000474635
